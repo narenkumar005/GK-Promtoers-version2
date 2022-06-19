@@ -1,0 +1,92 @@
+@use "../abstracts";
+
+.home-7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw;
+  padding-top: 15vh;
+  padding-bottom: 6vh;
+  &-left {
+    flex: 2;
+    text-transform: uppercase;
+    p {
+      color: gray;
+      letter-spacing: 0.8rem;
+      text-align: left;
+    }
+    h2 {
+      font-weight: 100;
+      font-size: 3rem;
+      letter-spacing: 0.5rem;
+    }
+    h3 {
+      font-family: abstracts.$font-lato;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+  }
+  &-right {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+
+    &--upper {
+      display: flex;
+      margin-bottom: 5vh;
+
+      div {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        position: relative;
+        i {
+          font-size: 3rem;
+          color: #f8ce61;
+          margin-right: 2rem;
+        }
+        h3 {
+          font-family: abstracts.$font-mont;
+          font-weight: bold;
+          text-align: center;
+        }
+      }
+      div:after {
+        content: "";
+        position: absolute;
+        width: 85%;
+        top: -0.5rem;
+        height: 1px;
+        background-color: rgba(gray, 0.5);
+      }
+    }
+    &--lower {
+      display: flex;
+
+      div {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        position: relative;
+        i {
+          font-size: 3rem;
+          color: #f8ce61;
+          margin-right: 2rem;
+        }
+        h3 {
+          font-family: abstracts.$font-mont;
+          font-weight: bold;
+          text-align: center;
+        }
+      }
+      div:after {
+        content: "";
+        position: absolute;
+        width: 85%;
+        top: -0.5rem;
+        height: 1px;
+        background-color: rgba(gray, 0.5);
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.home-8 {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, rgba(black, 0.8), rgba(black, 0.9)),
+    url(/GK-Promtoers-version2/download.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 10vh;
+
+  h3 {
+    font-size: 3rem;
+    padding: 10vh 0 3vh;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #f8ce61;
+  }
+}

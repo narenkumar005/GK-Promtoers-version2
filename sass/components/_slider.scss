@@ -1,0 +1,29 @@
+main {
+  margin-top: 15vh;
+
+  .slider-item {
+    padding: 25vh 0;
+    background: linear-gradient(to right, rgba(black, 0.6), rgba(black, 0.8)),
+      url(/GK-Promtoers-version2/download.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    .item-content {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 15%;
+      h2 {
+        font-size: 3rem;
+        margin-bottom: 5vh;
+        text-align: center;
+      }
+      p {
+        font-size: 1.5rem;
+        text-align: center;
+      }
+    }
+  }
+}

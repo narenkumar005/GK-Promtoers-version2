@@ -1,0 +1,375 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 10;
+  padding: 0 10vw;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav .upper_nav {
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+nav .upper_nav h1 {
+  color: #21248b;
+  padding: 0.8rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+nav .upper_nav__logo {
+  display: flex;
+  align-items: center;
+}
+nav .upper_nav__logo i {
+  color: darkgreen;
+  margin-right: 1vw;
+  font-size: 1.5rem;
+}
+nav .upper_nav__logo p {
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+nav .lower_nav {
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+nav .lower_nav li:not(:last-child) {
+  margin-right: 2vw;
+}
+nav .lower_nav li a {
+  color: black;
+  font-size: 1.5rem;
+}
+
+main {
+  margin-top: 15vh;
+}
+main .slider-item {
+  padding: 25vh 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(/GK-Promtoers-version2/download.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+}
+main .slider-item .item-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 15%;
+}
+main .slider-item .item-content h2 {
+  font-size: 3rem;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+main .slider-item .item-content p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.home-2 {
+  margin-top: 8vh;
+  padding: 0 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+.home-2_left {
+  flex: 3;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.home-2_left--1 {
+  flex: 1;
+  padding: 2rem;
+}
+.home-2_left--1--inner {
+  background-color: #f8ce61;
+  text-align: center;
+}
+.home-2_left--1--inner h2 {
+  font-size: 8rem;
+  font-weight: bolder;
+  padding-top: 5vh;
+}
+.home-2_left--1--inner h3 {
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.home-2_left--1--inner h4 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75rem;
+  font-weight: 100;
+  padding-bottom: 4vh;
+}
+.home-2_left--2 {
+  flex: 1;
+  margin-right: 2rem;
+  text-align: left;
+}
+.home-2_left--2 p {
+  letter-spacing: 1rem;
+  color: gray;
+  margin-bottom: 2rem;
+}
+.home-2_left--2 h2 {
+  font-weight: 200;
+  letter-spacing: 0.3rem;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 3rem;
+  text-transform: uppercase;
+}
+.home-2_left--2 h3 {
+  font-weight: bolder;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  line-height: 3rem;
+}
+.home-2_right {
+  flex: 2;
+}
+.home-2_right p {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.home-2_right h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.home-3 {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10vw;
+}
+.home-3 button {
+  background-color: #f8ce61;
+  padding: 0.5rem 1rem;
+  border: 1px solid #f8ce61;
+}
+
+.home-4 {
+  margin-top: 5vh;
+  padding: 0 10vw;
+}
+.home-4 h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.home-5 {
+  margin-top: 10vh;
+}
+.home-5 h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+.home-5 h3 span {
+  color: gray;
+  font-size: 1rem;
+}
+.home-5 .img_gallery {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.home-5 .img_gallery--upper {
+  display: flex;
+}
+.home-5 .img_gallery--upper div {
+  flex: 1;
+  background-image: url(/GK-Promtoers-version2/images.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+}
+.home-5 .img_gallery--lower {
+  display: flex;
+}
+.home-5 .img_gallery--lower div {
+  flex: 1;
+  background-image: url(/GK-Promtoers-version2/download.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
+.home-6 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem 0;
+  background-color: #f8ce61;
+}
+.home-6 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-6 div h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.home-6 div p {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  margin-left: 1rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.home-7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw;
+  padding-top: 15vh;
+  padding-bottom: 6vh;
+}
+.home-7-left {
+  flex: 2;
+  text-transform: uppercase;
+}
+.home-7-left p {
+  color: gray;
+  letter-spacing: 0.8rem;
+  text-align: left;
+}
+.home-7-left h2 {
+  font-weight: 100;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+}
+.home-7-left h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.home-7-right {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+.home-7-right--upper {
+  display: flex;
+  margin-bottom: 5vh;
+}
+.home-7-right--upper div {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  position: relative;
+}
+.home-7-right--upper div i {
+  font-size: 3rem;
+  color: #f8ce61;
+  margin-right: 2rem;
+}
+.home-7-right--upper div h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.home-7-right--upper div:after {
+  content: "";
+  position: absolute;
+  width: 85%;
+  top: -0.5rem;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.home-7-right--lower {
+  display: flex;
+}
+.home-7-right--lower div {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  position: relative;
+}
+.home-7-right--lower div i {
+  font-size: 3rem;
+  color: #f8ce61;
+  margin-right: 2rem;
+}
+.home-7-right--lower div h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.home-7-right--lower div:after {
+  content: "";
+  position: absolute;
+  width: 85%;
+  top: -0.5rem;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.home-8 {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(/GK-Promtoers-version2/download.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 10vh;
+}
+.home-8 h3 {
+  font-size: 3rem;
+  padding: 10vh 0 3vh;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.home-8 button {
+  padding: 0.5rem 1rem;
+  background-color: #f8ce61;
+}
+
+/*# sourceMappingURL=main.css.map */
