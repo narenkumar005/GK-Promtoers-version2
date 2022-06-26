@@ -373,72 +373,11 @@ main .slider-item .item-content p {
 }
 
 .home-9 {
-  padding: 0 7vw;
-  margin-top: 8vh;
-}
-.home-9--icon i {
-  color: gold;
-  border: 0.3rem solid gold;
-  padding: 0.9rem;
-  font-size: 1rem;
-  background-color: black;
-}
-.home-9_icon--right {
-  padding-left: 5%;
-}
-.home-9_icon--right p {
-  font-family: "Roboto Condensed", sans-serif;
+  padding: 0 10vw;
 }
 .home-9 h3 {
   text-align: center;
   font-size: 3rem;
-  font-family: "Oswald", sans-serif;
-  margin-bottom: 8vh;
-}
-.home-9_container {
-  display: flex;
-}
-.home-9_container--left {
-  padding-left: 5%;
-  padding-right: 1%;
-}
-.home-9_container--left--inner {
-  display: flex;
-  padding: 2rem;
-  box-shadow: 1px 2px 4px 2px rgba(0, 0, 0, 0.4);
-}
-.home-9_container--left--inner:not(:last-child) {
-  margin-bottom: 5vh;
-}
-.home-9_container--right {
-  padding-left: 1%;
-  padding-right: 5%;
-}
-.home-9_container--right--inner {
-  display: flex;
-  padding: 2rem;
-  box-shadow: 1px 2px 4px 2px rgba(0, 0, 0, 0.4);
-}
-.home-9_container--right--inner:not(:last-child) {
-  margin-bottom: 5vh;
 }
 
-.home-10 {
-  text-align: center;
-  margin-top: 5vh;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(/GK-Promtoers-version2/download.jpg);
-  background-position: center;
-  background-size: cover;
-  color: gold;
-  padding: 9vh 0;
-  border-bottom: 0.35rem solid gold;
-}
-.home-10 h2 {
-  font-weight: bold;
-}
-.home-10 h3 {
-  font-weight: 300;
-  letter-spacing: 0.1rem;
-}
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.scss.map */

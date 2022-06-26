@@ -1,0 +1,58 @@
+@use "../abstracts";
+.home-9 {
+  padding: 0 7vw;
+  margin-top: 8vh;
+
+  &--icon {
+    i {
+      color: gold;
+      border: 0.3rem solid gold;
+      padding: 0.9rem;
+      font-size: 1rem;
+      background-color: black;
+    }
+  }
+  &_icon--right {
+    padding-left: 5%;
+    p {
+      font-family: abstracts.$font-roboto;
+    }
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: abstracts.$font-oswald;
+    margin-bottom: 8vh;
+  }
+
+  &_container {
+    display: flex;
+    &--left {
+      padding-left: 5%;
+      padding-right: 1%;
+
+      &--inner {
+        display: flex;
+        padding: 2rem;
+        box-shadow: 1px 2px 4px 2px rgba(black, 0.4);
+        &:not(:last-child) {
+          margin-bottom: 5vh;
+        }
+      }
+    }
+
+    &--right {
+      padding-left: 1%;
+      padding-right: 5%;
+      &--inner {
+        display: flex;
+        padding: 2rem;
+        box-shadow: 1px 2px 4px 2px rgba(black, 0.4);
+        &:not(:last-child) {
+          margin-bottom: 5vh;
+        }
+      }
+    }
+  }
+}

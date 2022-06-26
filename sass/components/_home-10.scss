@@ -1,0 +1,18 @@
+.home-10 {
+  text-align: center;
+  margin-top: 5vh;
+  background: linear-gradient(to right, rgba(black, 0.8), rgba(black, 0.9)),
+    url(/GK-Promtoers-version2/download.jpg);
+  background-position: center;
+  background-size: cover;
+  color: gold;
+  padding: 9vh 0;
+  border-bottom: 0.35rem solid gold;
+  h2 {
+    font-weight: bold;
+  }
+  h3 {
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+  }
+}
