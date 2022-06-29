@@ -1,0 +1,17 @@
+@use "../abstracts";
+
+.about-1 {
+  padding: 8vh 10vw 0;
+  text-align: center;
+  h1 {
+    font-family: abstracts.$font-oswald;
+    margin-bottom: 5vh;
+  }
+  p {
+    text-align: justify;
+    font-family: abstracts.$font-mont;
+    strong {
+      font-weight: bold;
+    }
+  }
+}

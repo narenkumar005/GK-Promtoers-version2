@@ -1,0 +1,38 @@
+@use "../abstracts";
+
+.about-2 {
+  margin-top: 8vh;
+  text-align: center;
+  h2 {
+    font-family: abstracts.$font-oswald;
+  }
+  p {
+    font-family: abstracts.$font-mont;
+    margin-bottom: 4vh;
+  }
+  .img_grid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .upper {
+      display: flex;
+      .inner {
+        height: 30vh;
+        flex: 1;
+        background-image: url(/GK-Promtoers-version2/images.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+    }
+    .lower {
+      display: flex;
+      .inner {
+        height: 30vh;
+        flex: 1;
+        background-image: url(/GK-Promtoers-version2/images.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+    }
+  }
+}

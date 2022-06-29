@@ -441,4 +441,82 @@ main .slider-item .item-content p {
   letter-spacing: 0.1rem;
 }
 
+.about-1 {
+  padding: 8vh 10vw 0;
+  text-align: center;
+}
+.about-1 h1 {
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 5vh;
+}
+.about-1 p {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+}
+.about-1 p strong {
+  font-weight: bold;
+}
+
+.about-2 {
+  margin-top: 8vh;
+  text-align: center;
+}
+.about-2 h2 {
+  font-family: "Oswald", sans-serif;
+}
+.about-2 p {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 4vh;
+}
+.about-2 .img_grid {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.about-2 .img_grid .upper {
+  display: flex;
+}
+.about-2 .img_grid .upper .inner {
+  height: 30vh;
+  flex: 1;
+  background-image: url(/GK-Promtoers-version2/images.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.about-2 .img_grid .lower {
+  display: flex;
+}
+.about-2 .img_grid .lower .inner {
+  height: 30vh;
+  flex: 1;
+  background-image: url(/GK-Promtoers-version2/images.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.about-3 {
+  margin-top: 8vh;
+  text-align: center;
+}
+.about-3 h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 4vh;
+}
+.about-3 h3 {
+  margin-bottom: 4vh;
+  font-weight: 500;
+}
+.about-3 h3 span {
+  color: gold;
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0 1rem;
+}
+.about-3 h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 4vh;
+}
+
 /*# sourceMappingURL=main.css.map */
