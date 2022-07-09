@@ -1,0 +1,348 @@
+@use "../abstracts";
+.about-4 {
+  margin-top: 8vh;
+  h2 {
+    font-family: abstracts.$font-oswald;
+    font-size: 2rem;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  &_header {
+    padding: 3vh 4vw 0;
+
+    display: flex;
+    justify-content: space-between;
+    &-1,
+    &-2,
+    &-3,
+    &-4,
+    &-5,
+    &-6 {
+      border: 1px solid black;
+      background-color: lightgrey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 0;
+        padding: 0.8rem 0;
+      }
+    }
+    &-1 {
+      flex: 1;
+    }
+    &-2 {
+      flex: 6;
+    }
+    &-3 {
+      flex: 4;
+    }
+    &-4 {
+      flex: 1;
+    }
+    &-5 {
+      flex: 1;
+    }
+    &-6 {
+      flex: 2;
+    }
+  }
+  &_body {
+    padding: 0 4vw 0;
+
+    display: flex;
+    justify-content: space-between;
+    &-1,
+    &-2,
+    &-3,
+    &-4,
+    &-5,
+    &-6 {
+      border: 1px solid black;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 0;
+        padding: 0.8rem 0;
+      }
+    }
+    &-1 {
+      flex: 1;
+    }
+    &-2 {
+      flex: 6;
+      flex-direction: column;
+      align-items: flex-start;
+      div {
+        text-align: left;
+        p {
+          padding: 0 0 0 1rem;
+          font-weight: 500;
+        }
+        small {
+          padding: 0 0 0 1rem;
+        }
+      }
+    }
+    &-3 {
+      flex: 4;
+      input {
+        width: 90%;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        outline: 0;
+        text-align: center;
+      }
+    }
+    &-4 {
+      flex: 1;
+    }
+    &-5 {
+      flex: 1;
+    }
+    &-6 {
+      flex: 2;
+      justify-content: flex-end;
+    }
+  }
+  &_body2 {
+    padding: 0 4vw 0;
+
+    display: flex;
+    justify-content: space-between;
+    &-1,
+    &-2,
+    &-3,
+    &-4,
+    &-5,
+    &-6 {
+      border: 1px solid black;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 0;
+        padding: 0.8rem 0;
+      }
+    }
+    &-1 {
+      flex: 1;
+    }
+    &-2 {
+      flex: 6;
+      flex-direction: column;
+      align-items: flex-start;
+      div {
+        text-align: left;
+        p {
+          padding: 0 0 0 1rem;
+          font-weight: 500;
+        }
+      }
+    }
+    &-3 {
+      flex: 4;
+      div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        input {
+          width: 30%;
+          border-radius: 5px;
+          font-size: 1rem;
+          outline: 0;
+          text-align: center;
+        }
+      }
+    }
+    &-4 {
+      flex: 1;
+    }
+    &-5 {
+      flex: 1;
+    }
+    &-6 {
+      flex: 2;
+      justify-content: flex-end;
+    }
+  }
+  &_body3 {
+    padding: 0 4vw 0;
+
+    display: flex;
+    justify-content: space-between;
+    &-1,
+    &-2,
+    &-3,
+    &-4,
+    &-5,
+    &-6 {
+      border: 1px solid black;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 0;
+        padding: 0.8rem 0;
+      }
+    }
+    &-1 {
+      flex: 1;
+    }
+    &-2 {
+      flex: 6;
+      flex-direction: column;
+      align-items: flex-start;
+      div {
+        text-align: left;
+        p {
+          padding: 0 0 0 1rem;
+          font-weight: 500;
+        }
+      }
+    }
+    &-3 {
+      flex: 4;
+      div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        input {
+          width: 30%;
+          border-radius: 5px;
+          font-size: 1rem;
+          outline: 0;
+          text-align: center;
+        }
+      }
+    }
+    &-4 {
+      flex: 1;
+    }
+    &-5 {
+      flex: 1;
+    }
+    &-6 {
+      flex: 2;
+      justify-content: flex-end;
+    }
+  }
+  &_body4 {
+    padding: 0 4vw 0;
+
+    display: flex;
+    justify-content: space-between;
+    &-1,
+    &-2,
+    &-3,
+    &-4,
+    &-5,
+    &-6 {
+      border: 1px solid black;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 0;
+        padding: 0.8rem 0;
+      }
+    }
+    &-1 {
+      flex: 1;
+    }
+    &-2 {
+      flex: 6;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      div {
+        text-align: center;
+        p {
+          padding: 0 0 0 1rem;
+          font-weight: 500;
+          padding-top: 0;
+        }
+      }
+    }
+    &-3 {
+      flex: 4;
+      div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        input {
+          width: 48%;
+          border-radius: 5px;
+          font-size: 1rem;
+          outline: 0;
+          text-align: center;
+        }
+      }
+    }
+    &-4 {
+      flex: 1;
+    }
+    &-5 {
+      flex: 1;
+    }
+    &-6 {
+      flex: 2;
+      justify-content: flex-end;
+    }
+  }
+  &_body5 {
+    padding: 0 4vw 0;
+
+    display: flex;
+    justify-content: space-between;
+    &-1,
+    &-6 {
+      border: 1px solid black;
+
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      p {
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 0;
+        padding: 0.8rem 0;
+      }
+    }
+    &-1 {
+      flex: 13;
+      padding-right: 8px;
+    }
+
+    &-6 {
+      flex: 2;
+      justify-content: flex-end;
+    }
+  }
+}

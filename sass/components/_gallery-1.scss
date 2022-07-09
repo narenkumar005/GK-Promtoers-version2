@@ -1,0 +1,13 @@
+.gallery-1 {
+  padding: 8vh 10vw 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  &--inner {
+    min-width: 25%;
+    height: 35vh;
+    background-image: url(/GK-Promtoers-version2/download.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}

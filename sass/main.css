@@ -519,4 +519,332 @@ main .slider-item .item-content p {
   margin-bottom: 4vh;
 }
 
+.about-4 {
+  margin-top: 8vh;
+}
+.about-4 h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+.about-4 p {
+  text-align: center;
+}
+.about-4_header {
+  padding: 3vh 4vw 0;
+  display: flex;
+  justify-content: space-between;
+}
+.about-4_header-1, .about-4_header-2, .about-4_header-3, .about-4_header-4, .about-4_header-5, .about-4_header-6 {
+  border: 1px solid black;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-4_header-1 p, .about-4_header-2 p, .about-4_header-3 p, .about-4_header-4 p, .about-4_header-5 p, .about-4_header-6 p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  padding: 0.8rem 0;
+}
+.about-4_header-1 {
+  flex: 1;
+}
+.about-4_header-2 {
+  flex: 6;
+}
+.about-4_header-3 {
+  flex: 4;
+}
+.about-4_header-4 {
+  flex: 1;
+}
+.about-4_header-5 {
+  flex: 1;
+}
+.about-4_header-6 {
+  flex: 2;
+}
+.about-4_body {
+  padding: 0 4vw 0;
+  display: flex;
+  justify-content: space-between;
+}
+.about-4_body-1, .about-4_body-2, .about-4_body-3, .about-4_body-4, .about-4_body-5, .about-4_body-6 {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-4_body-1 p, .about-4_body-2 p, .about-4_body-3 p, .about-4_body-4 p, .about-4_body-5 p, .about-4_body-6 p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  padding: 0.8rem 0;
+}
+.about-4_body-1 {
+  flex: 1;
+}
+.about-4_body-2 {
+  flex: 6;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.about-4_body-2 div {
+  text-align: left;
+}
+.about-4_body-2 div p {
+  padding: 0 0 0 1rem;
+  font-weight: 500;
+}
+.about-4_body-2 div small {
+  padding: 0 0 0 1rem;
+}
+.about-4_body-3 {
+  flex: 4;
+}
+.about-4_body-3 input {
+  width: 90%;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  outline: 0;
+  text-align: center;
+}
+.about-4_body-4 {
+  flex: 1;
+}
+.about-4_body-5 {
+  flex: 1;
+}
+.about-4_body-6 {
+  flex: 2;
+  justify-content: flex-end;
+}
+.about-4_body2 {
+  padding: 0 4vw 0;
+  display: flex;
+  justify-content: space-between;
+}
+.about-4_body2-1, .about-4_body2-2, .about-4_body2-3, .about-4_body2-4, .about-4_body2-5, .about-4_body2-6 {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-4_body2-1 p, .about-4_body2-2 p, .about-4_body2-3 p, .about-4_body2-4 p, .about-4_body2-5 p, .about-4_body2-6 p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  padding: 0.8rem 0;
+}
+.about-4_body2-1 {
+  flex: 1;
+}
+.about-4_body2-2 {
+  flex: 6;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.about-4_body2-2 div {
+  text-align: left;
+}
+.about-4_body2-2 div p {
+  padding: 0 0 0 1rem;
+  font-weight: 500;
+}
+.about-4_body2-3 {
+  flex: 4;
+}
+.about-4_body2-3 div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.about-4_body2-3 div input {
+  width: 30%;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: 0;
+  text-align: center;
+}
+.about-4_body2-4 {
+  flex: 1;
+}
+.about-4_body2-5 {
+  flex: 1;
+}
+.about-4_body2-6 {
+  flex: 2;
+  justify-content: flex-end;
+}
+.about-4_body3 {
+  padding: 0 4vw 0;
+  display: flex;
+  justify-content: space-between;
+}
+.about-4_body3-1, .about-4_body3-2, .about-4_body3-3, .about-4_body3-4, .about-4_body3-5, .about-4_body3-6 {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-4_body3-1 p, .about-4_body3-2 p, .about-4_body3-3 p, .about-4_body3-4 p, .about-4_body3-5 p, .about-4_body3-6 p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  padding: 0.8rem 0;
+}
+.about-4_body3-1 {
+  flex: 1;
+}
+.about-4_body3-2 {
+  flex: 6;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.about-4_body3-2 div {
+  text-align: left;
+}
+.about-4_body3-2 div p {
+  padding: 0 0 0 1rem;
+  font-weight: 500;
+}
+.about-4_body3-3 {
+  flex: 4;
+}
+.about-4_body3-3 div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.about-4_body3-3 div input {
+  width: 30%;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: 0;
+  text-align: center;
+}
+.about-4_body3-4 {
+  flex: 1;
+}
+.about-4_body3-5 {
+  flex: 1;
+}
+.about-4_body3-6 {
+  flex: 2;
+  justify-content: flex-end;
+}
+.about-4_body4 {
+  padding: 0 4vw 0;
+  display: flex;
+  justify-content: space-between;
+}
+.about-4_body4-1, .about-4_body4-2, .about-4_body4-3, .about-4_body4-4, .about-4_body4-5, .about-4_body4-6 {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-4_body4-1 p, .about-4_body4-2 p, .about-4_body4-3 p, .about-4_body4-4 p, .about-4_body4-5 p, .about-4_body4-6 p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  padding: 0.8rem 0;
+}
+.about-4_body4-1 {
+  flex: 1;
+}
+.about-4_body4-2 {
+  flex: 6;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.about-4_body4-2 div {
+  text-align: center;
+}
+.about-4_body4-2 div p {
+  padding: 0 0 0 1rem;
+  font-weight: 500;
+  padding-top: 0;
+}
+.about-4_body4-3 {
+  flex: 4;
+}
+.about-4_body4-3 div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.about-4_body4-3 div input {
+  width: 48%;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: 0;
+  text-align: center;
+}
+.about-4_body4-4 {
+  flex: 1;
+}
+.about-4_body4-5 {
+  flex: 1;
+}
+.about-4_body4-6 {
+  flex: 2;
+  justify-content: flex-end;
+}
+.about-4_body5 {
+  padding: 0 4vw 0;
+  display: flex;
+  justify-content: space-between;
+}
+.about-4_body5-1, .about-4_body5-6 {
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.about-4_body5-1 p, .about-4_body5-6 p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  padding: 0.8rem 0;
+}
+.about-4_body5-1 {
+  flex: 13;
+  padding-right: 8px;
+}
+.about-4_body5-6 {
+  flex: 2;
+  justify-content: flex-end;
+}
+
+.about-5 {
+  padding: 3vh 4vw 0;
+}
+.about-5 h5 {
+  margin-top: 5vh;
+  border: 2px solid #337ab7;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.gallery-1 {
+  padding: 8vh 10vw 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery-1--inner {
+  min-width: 25%;
+  height: 35vh;
+  background-image: url(/GK-Promtoers-version2/download.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 /*# sourceMappingURL=main.css.map */
